@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# BreezySLAM is not published as a normal PyPI wheel.
+# This installs it from the upstream GitHub repository.
+git+https://github.com/simondlevy/BreezySLAM.git#subdirectory=python
